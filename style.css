@@ -1,0 +1,62 @@
+body {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input-group-text {
+    width: 100px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.card {
+    margin: 10px;
+    width: 22rem;
+}
+
+.card:hover {
+    border: 1px red solid;
+
+}
+
+.joke-container {
+    background-color: lightgray;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joke-content {
+    text-align: center;
+    margin: 5px 0;
+}
